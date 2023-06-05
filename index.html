@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class = "image fade">
+            <img src="images\StockSnap_2P4CSFCJYF.jpg" alt="cat1" width="100%">
+        </div>
+        <div class = "image fade">
+            <img src="images\StockSnap_4DIBKW5OPX.jpg" alt="cat2" width="100%">
+        </div>
+        <div class = "image fade">
+            <img src="images\StockSnap_NABSTMJFQH.jpg" alt="cat3" width="100%">
+        </div>
+        <div class = "image fade">
+            <img src="images\StockSnap_PP1NWE5XWK.jpg" alt="cat4" width="100%">
+        </div>
+        <div class = "image fade">
+            <img src="images\StockSnap_UW83WHCIH1.jpg" alt="cat5" width="100%">
+        </div>
+        <div class = "image fade">
+            <img src="images\StockSnap_ZNO68SUW71.jpg" alt="cat6" width="100%">
+        </div>
+    
+
+        <i id="prev" onclick="show_image(-1)"class="fa-solid fa-chevron-left"></i> <!-- по клику срабатывает вызов функции, с аргументом = - 1 -->
+        <i id="next" onclick="show_image(1)" class="fa-solid fa-chevron-right"></i> <!-- по клику срабатывает вызов функции, с аргументом = - 1 -->
+        
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
